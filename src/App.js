@@ -16,7 +16,7 @@ const App = () => {
         setMovies(data.Search);
     }
 
-    useEffect(() => {<MovieCard Movie1={movies[0]} />
+    useEffect(() => {<MovieCard movie={movies[0]} />
         searchMovies('Spiderman');
     }, [])
 
