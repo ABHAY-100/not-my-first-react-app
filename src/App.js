@@ -18,7 +18,7 @@ const App = () => {
 
     useEffect(() => {<MovieCard movie={movies[0]} />
         searchMovies('Spiderman');
-    }, [])
+    }, [movies])
 
     return (
         <div className="app">
